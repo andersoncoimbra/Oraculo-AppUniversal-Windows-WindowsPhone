@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-04-22T08:14:37.626</Modified>
+      <Modified>2015-04-22T08:44:14.753</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2015-04-22T08:12:46.275</Modified>
+      <Modified>2015-04-22T08:56:23.840</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
@@ -58,11 +58,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Shared\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2015-04-22T08:19:30.185</Modified>
+      <Modified>2015-04-22T09:34:04.232</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-04-22T08:14:37.427</Modified>
+      <Modified>2015-04-22T08:44:14.268</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
