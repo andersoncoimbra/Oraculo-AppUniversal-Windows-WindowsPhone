@@ -1,0 +1,15 @@
+C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\bin\Debug\ReverseMap\resources.pri
+C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\bin\Debug\AppxManifest.xml
+C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\bin\Debug\Oraculo.Windows.build.appxrecipe
+C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\bld\Debug\priconfig.xml
+C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\bld\Debug\priconfig.xml.intermediate
+C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\bld\Debug\layout.resfiles
+C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\bld\Debug\layout.resfiles.intermediate
+C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\bld\Debug\resources.resfiles
+C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\bld\Debug\resources.resfiles.intermediate
+C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\bld\Debug\pri.resfiles
+C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\bld\Debug\pri.resfiles.intermediate
+C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\bld\Debug\qualifiers.txt
+C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\bld\Debug\qualifiers.txt.intermediate
+C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\bld\Debug\ProjectArchitectures.txt

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>COIMBRA</Machine>
+    <WindowsUser>Anderson</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>fdae2470-d69c-47f0-a173-40362dce31bd</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\bld\Release\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>148E33C5FF7FC6C8E49FE44D86716BD58BAE4474DA5959E69B2DAFE47333AAD2</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>fdae2470-d69c-47f0-a173-40362dce31bd_1.0.0.0_neutral__yps17xarsp2at</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>fdae2470-d69c-47f0-a173-40362dce31bd_yps17xarsp2at!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>fdae2470-d69c-47f0-a173-40362dce31bd</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=test</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-04-21T01:23:16.027</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2015-04-21T01:13:10.307</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-02T19:38:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-02T19:38:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-02T19:38:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-02T19:38:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2014-06-02T19:38:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Shared\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2015-04-21T01:27:43.090</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\bin\Release\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-04-21T01:23:15.949</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.17018</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.17018</FrameworkIdentity>
+      <AppxLocation>C:\Program Files\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+﻿body {
+    font-family: 'Segoe UI light','wf_segoe-ui_light', Helvetica, Arial, sans-serif;
+        font-size: 20px;
+        text-align:center;
+        background-image: url(/img/estrelas.jpg);
+}
+.box{
+    margin-top: 20px;
+    width: 97%;
+	margin-left: 1.5%;
+}

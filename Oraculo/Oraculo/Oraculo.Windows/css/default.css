@@ -1,0 +1,31 @@
+﻿body {
+        font-family: 'Segoe UI light','wf_segoe-ui_light', Helvetica, Arial, sans-serif;
+        font-size: 20px;
+        text-align:center;
+        background-image: url(/img/estrelas.jpg);
+  
+}
+h1, h2, h3 {
+    font-family: 'Segoe UI light','wf_segoe-ui_light', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+
+}
+h3 {
+
+    font-size: medium;
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    position:absolute;
+		left:50%;
+		top:50%;
+    margin-top: -200px;
+    margin-left: -200px;
+   text-align:center;
+    background-color: darkblue;
+    color: #eb008a;
+    
+    
+}
