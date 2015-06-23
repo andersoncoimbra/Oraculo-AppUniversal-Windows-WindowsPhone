@@ -3,6 +3,7 @@
         font-size: 20px;
         text-align:center;
         background-image: url(/img/estrelas.jpg);
+        background-size:auto;
   
 }
 h1, h2, h3 {
@@ -24,8 +25,8 @@ h3 {
     margin-top: -200px;
     margin-left: -200px;
    text-align:center;
-    background-color: darkblue;
-    color: #eb008a;
+    background-color: rgba(75, 75, 75, 0.53);
+    color: rgb(255, 255, 255);
     
     
 }

@@ -7,6 +7,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="$(MSBuildThisFileDirectory)img\estrelas.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)img\splashscreen.scale-180.png" />
     <Content Include="$(MSBuildThisFileDirectory)js\default.js" />
   </ItemGroup>
 </Project>

@@ -1,0 +1,15 @@
+C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.WindowsPhone\bin\Debug\ReverseMap\resources.pri
+C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.WindowsPhone\bin\Debug\AppxManifest.xml
+C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.WindowsPhone\bin\Debug\BlankSharedApp1.WindowsPhone.build.appxrecipe
+C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.WindowsPhone\bld\Debug\priconfig.xml
+C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.WindowsPhone\bld\Debug\priconfig.xml.intermediate
+C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.WindowsPhone\bld\Debug\layout.resfiles
+C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.WindowsPhone\bld\Debug\layout.resfiles.intermediate
+C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.WindowsPhone\bld\Debug\resources.resfiles
+C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.WindowsPhone\bld\Debug\resources.resfiles.intermediate
+C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.WindowsPhone\bld\Debug\pri.resfiles
+C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.WindowsPhone\bld\Debug\pri.resfiles.intermediate
+C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.WindowsPhone\bld\Debug\qualifiers.txt
+C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.WindowsPhone\bld\Debug\qualifiers.txt.intermediate
+C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.WindowsPhone\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.WindowsPhone\bld\Debug\ProjectArchitectures.txt

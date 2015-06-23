@@ -1,4 +1,5 @@
 ﻿// Para uma introdução ao modelo em branco, consulte a seguinte documentação:
+//
 // http://go.microsoft.com/fwlink/?LinkID=392286
 (function () {
     "use strict";
@@ -6,20 +7,37 @@
     var app = WinJS.Application;
     var activation = Windows.ApplicationModel.Activation;
 
+
+
+    var splash = null; // Variable to hold the splash screen object. 
+    var dismissed = false; // Variable to track splash screen dismissal status. 
+    var coordinates = { x: 0, y: 0, width: 0, height: 0 };// = null;// // Object to store splash screen image coordinates. It will be initialized during activation.
+    var scenarios = [{
+        url: "",
+        title: ""
+    }, {
+        url: "",
+        title: ""
+    }];
+
+
     app.onactivated = function (args) {
 
         
-    var signos = ["Direto do Alem", "Aries", "Touro","Gemeos", "Cancer", "Leao", "Virgem", "Libra", "Escorpiao","Sagitario", "Capricornio", "Aquario", "Peixe"]
+
+        
+    var signos = ["Direto do Alem", "Aries", "Touro","Gemeos", "Cancer", "Goku ","Leao", "Virgem", "Libra", "Escorpiao","Sagitario", "Capricornio", "Aquario", "Peixe"]
     var frases;
    
 
     
       
+    var animated;
     var nome = document.getElementById("nome");
     var btsorte = document.getElementById("btgerasorte");
     var titulo = document.getElementById("titulo");
     var select = document.getElementById("selecao");
-	var sorte = document.getElementById("sorte");
+    var sorte = document.getElementById("sorte");
 	carregarFrases();
 
 	var total = frases.length;
@@ -32,7 +50,9 @@
 	    var nsorte = Math.floor((Math.random() * total) );
 	    titulo.innerHTML = nome.value.toUpperCase() + " Sua Sorte é:" ;
 	    // nome.value +
-	    sorte.innerHTML = frases[nsorte];
+	    sorte.innerHTML = frases[nsorte] + '100px' + splash.imageLocation.height + "px";
+	    animated = WinJS.UI.Animation.enterPage([titulo, sorte], null);
+
 
 	    
 	}
@@ -119,9 +139,130 @@
 
 
         }
-    };
 
 
 
+
+        
+            if (args.detail.kind === Windows.ApplicationModel.Activation.ActivationKind.launch) {
+                // Retrieve splash screen object
+               splash = args.detail.splashScreen;
+
+                // Retrieve the window coordinates of the splash screen image.
+               SdkSample.coordinates = splash.imageLocation;
+
+                // Register an event handler to be executed when the splash screen has been dismissed.
+                splash.addEventListener("dismissed", onSplashScreenDismissed, false);
+
+                // Create and display the extended splash screen using the splash screen object.
+                ExtendedSplash.show(splash);
+
+                // Listen for window resize events to reposition the extended splash screen image accordingly.
+                // This ensures that the extended splash screen is formatted properly when the window is resized.
+                window.addEventListener("resize", onResize, false);
+
+                // Use setPromise to indicate to the system that the splash screen must not be torn down
+                // until after processAll and navigate complete asynchronously.
+                args.setPromise(WinJS.UI.processAll().then(function () {
+                    // Navigate to either the first scenario or to the last running scenario
+                    // before suspension or termination.
+                    var url = WinJS.Application.sessionState.lastUrl || scenarios[0].url;
+                    return WinJS.Navigation.navigate(url);
+                }));
+            }
+        }
+
+    
+
+    function onSplashScreenDismissed() {
+        // Include code to be executed when the system has transitioned from the splash screen to the extended splash screen (application's first view).
+        SdkSample.dismissed = true;
+
+        setTimeout(ExtendedSplash.remove, 10000)
+        // Tear down the app's extended splash screen after completing setup operations here...
+        // In this sample, the extended splash screen is torn down when the "Learn More" button is clicked.
+        //document.getElementById("learnMore").addEventListener("click", ExtendedSplash.remove, false);
+    }
+
+    // Removes the extended splash screen if it is currently visible.
+    function remove() {
+        if (isVisible()) {
+            var splashEstendida = document.getElementById("splashEstendida");
+            WinJS.Utilities.addClass(splashEstendida, "hidden");
+        }
+    }
+
+
+
+    // Displays the extended splash screen. Pass the splash screen object retrieved during activation.
+    function show(splash) {
+        var extendedSplashImage = document.getElementById("imgSplashEstendida");
+
+        // Position the extended splash screen image in the same location as the system splash screen image.
+        extendedSplashImage.style.top = splash.imageLocation.y + "px";
+        extendedSplashImage.style.left = splash.imageLocation.x + "px";
+        extendedSplashImage.style.height =  splash.imageLocation.height + "px";
+        extendedSplashImage.style.width =  splash.imageLocation.width + "px";
+
+        // Position the extended splash screen's progress ring. Note: In this sample, the progress ring is not used.
+        /*
+        var extendedSplashProgress = document.getElementById("extendedSplashProgress");
+        extendedSplashProgress.style.marginTop = splash.imageLocation.y + splash.imageLocation.height + 32 + "px";
+        */
+
+        // Once the extended splash screen is setup, apply the CSS style that will make the extended splash screen visible.
+        var extendedSplashScreen = document.getElementById("splashEstendida");
+        WinJS.Utilities.removeClass(extendedSplashScreen, "hidden");
+    }
+
+
+    function onResize() {
+        // Safely update the extended splash screen image coordinates. This function will be fired in response to snapping, unsnapping, rotation, etc...
+        if (splash) {
+            // Update the coordinates of the splash screen image.
+            SdkSample.coordinates = splash.imageLocation;
+            ExtendedSplash.updateImageLocation(splash);
+        }
+    }
+
+
+    function updateImageLocation(splash) {
+        if (isVisible()) {
+            var extendedSplashImage = document.getElementById("imgSplashEstendida");
+
+            // Position the extended splash screen image in the same location as the system splash screen image.
+            extendedSplashImage.style.top = splash.imageLocation.y + "px";
+            extendedSplashImage.style.left = splash.imageLocation.x + "px";
+            extendedSplashImage.style.height = splash.imageLocation.height + "px";
+            extendedSplashImage.style.width = splash.imageLocation.width + "px";
+
+            // Position the extended splash screen's progress ring. Note: In this sample, the progress ring is not used.
+            /*
+            var extendedSplashProgress = document.getElementById("extendedSplashProgress");
+            extendedSplashProgress.style.marginTop = splash.imageLocation.y + splash.imageLocation.height + 32 + "px";
+            */
+        }
+    }
+
+    // Checks whether the extended splash screen is visible and returns a boolean.
+    function isVisible() {
+        var extendedSplashScreen = document.getElementById("splashEstendida");
+        return !(WinJS.Utilities.hasClass(extendedSplashScreen, "hidden"));
+    }
+
+    WinJS.Namespace.define("SdkSample", {
+        // sampleTitle: sampleTitle,
+        //  scenarios: new WinJS.Binding.List(scenarios),
+       dismissed: dismissed,
+       coordinates: coordinates,
+    });
+
+    WinJS.Namespace.define("ExtendedSplash", {
+        show: show,
+        updateImageLocation: updateImageLocation,
+        isVisible: isVisible,
+        remove: remove
+    });
+   
     app.start();
 })();

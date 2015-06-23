@@ -1,8 +1,10 @@
 img\estrelas.jpg
+img\splashscreen.scale-180.png
 js\default.js
 css\default.css
+css\splash.css
 default.html
 images\logo.png
 images\smalllogo.png
-images\splashscreen.png
+images\splashscreen.scale-180.png
 images\storelogo.png

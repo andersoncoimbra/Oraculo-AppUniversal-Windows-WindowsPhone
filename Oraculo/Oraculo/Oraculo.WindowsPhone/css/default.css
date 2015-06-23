@@ -1,6 +1,6 @@
 ﻿body {
     font-family: 'Segoe UI light','wf_segoe-ui_light', Helvetica, Arial, sans-serif;
-        font-size: 20px;
+        font-size: 20pt;
         text-align:center;
         background-image: url(/img/estrelas.jpg);
 }
@@ -13,7 +13,7 @@
 .sortecontent {
 
      font-family: 'Segoe UI light';
-     font-size: 20px;
+     font-size: x-large;
 
 
 }

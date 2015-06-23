@@ -14,6 +14,12 @@
     <!-- Oraculo.Phone references -->
     <link href="/css/default.css" rel="stylesheet" />
     <script src="/js/default.js"></script>
+
+    <!-- Oraculo.Phone Splash Screem references -->
+    <script src="/splash/splash.js"></script>
+    <link href="/splash/splash.css" rel="stylesheet" />
+
+
 </head>
 <body class="phone">
     <div class="box">
@@ -23,14 +29,15 @@
     <select id="selecao">
 
     </select>
-    <button type="button" style="width: 100%;" id="btgerasorte" onclick="gerasorte()">Gera Sorte</button>
+    <button type="button" style="width: 100%;" id="btgerasorte" >Gera Sorte</button>
     <div id="titulo"> Saiba sua sorte</div>
-        <div id="sorte"></div>
 
 
 </div>
+    <div id="sorte" class="sortecontent" style="animation-name: rr;"></div>
 
-
-
+    <div id="splashEstendida" class="splashEstendida hidden">
+        <img id="imgSplashEstendida" alt="Splash" src="images/SplashScreen.scale-240.png" />
+    </div>
 </body>
 </html>
