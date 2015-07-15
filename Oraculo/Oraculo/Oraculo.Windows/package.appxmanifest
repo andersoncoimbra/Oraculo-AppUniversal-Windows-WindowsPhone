@@ -15,7 +15,7 @@
   </Resources>
   <Applications>
     <Application Id="App" StartPage="default.html">
-      <m2:VisualElements DisplayName="Oraculo.Windows" Description="Oraculo.Windows" ForegroundText="light" BackgroundColor="#464646" Square150x150Logo="images\Logo.png" Square30x30Logo="images\SmallLogo.png">
+      <m2:VisualElements DisplayName="Oráculo" Description="Oraculo.Windows" ForegroundText="light" BackgroundColor="#ffffff" Square150x150Logo="images\Logo.png" Square30x30Logo="images\SmallLogo.png">
         <m2:SplashScreen Image="images\SplashScreen.png" BackgroundColor="#464646" />
         <m2:InitialRotationPreference>
           <m2:Rotation Preference="landscape" />

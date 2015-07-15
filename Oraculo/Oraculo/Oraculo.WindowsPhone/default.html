@@ -16,13 +16,12 @@
     <script src="/js/default.js"></script>
 
     <!-- Oraculo.Phone Splash Screem references -->
-    <script src="/splash/splash.js"></script>
     <link href="/splash/splash.css" rel="stylesheet" />
 
 
 </head>
 <body class="phone">
-    <div class="box">
+    <div id="box">
     <h3>Nome</h3>
     <input type="text" alt="Seu Nome" id="nome">
     <h3>Qual seu Signo</h3>
@@ -37,7 +36,8 @@
     <div id="sorte" class="sortecontent" style="animation-name: rr;"></div>
 
     <div id="splashEstendida" class="splashEstendida hidden">
-        <img id="imgSplashEstendida" alt="Splash" src="images/SplashScreen.scale-240.png" />
+        <img id="imgSplashEstendida" style="height: 100%;" alt="Splash" src="images/SplashScreen.scale-240.png" />
     </div>
+	<button id="btsobre" type="button">Sobre Oráculo</button>
 </body>
 </html>

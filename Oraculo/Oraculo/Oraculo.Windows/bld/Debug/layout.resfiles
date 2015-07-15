@@ -6,5 +6,6 @@ css\splash.css
 default.html
 images\logo.png
 images\smalllogo.png
-images\splashscreen.scale-180.png
+images\SplashScreen.scale-100.png
 images\storelogo.png
+js\script.js

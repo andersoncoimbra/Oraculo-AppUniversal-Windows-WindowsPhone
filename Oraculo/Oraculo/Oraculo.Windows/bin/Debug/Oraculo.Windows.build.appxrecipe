@@ -33,8 +33,8 @@
       <PackagePath>images\smalllogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\images\splashscreen.scale-180.png">
-      <PackagePath>images\splashscreen.scale-180.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\images\storelogo.png">
@@ -44,11 +44,14 @@
     <AppxPackagedFile Include="C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Shared\img\splashscreen.scale-180.png">
       <PackagePath>img\splashscreen.scale-180.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Shared\img\estrelas.jpg">
-      <PackagePath>img\estrelas.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\js\script.js">
+      <PackagePath>js\script.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Shared\js\default.js">
       <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Shared\img\estrelas.jpg">
+      <PackagePath>img\estrelas.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Anderson\Documents\GitHub\Oraculo-WindowsPhone\Oraculo\Oraculo\Oraculo.Windows\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>

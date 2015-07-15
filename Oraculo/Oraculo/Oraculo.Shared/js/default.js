@@ -38,6 +38,12 @@
     var titulo = document.getElementById("titulo");
     var select = document.getElementById("selecao");
     var sorte = document.getElementById("sorte");
+    var box = document.getElementById("box");
+     box.style.visibility = "hidden";
+    setTimeout(tornaVisivel, 11000);
+
+    
+
 	carregarFrases();
 
 	var total = frases.length;
@@ -201,7 +207,7 @@
         // Position the extended splash screen image in the same location as the system splash screen image.
         extendedSplashImage.style.top = splash.imageLocation.y + "px";
         extendedSplashImage.style.left = splash.imageLocation.x + "px";
-        extendedSplashImage.style.height =  splash.imageLocation.height + "px";
+        extendedSplashImage.style.height = splash.imageLocation.height + "px";
         extendedSplashImage.style.width =  splash.imageLocation.width + "px";
 
         // Position the extended splash screen's progress ring. Note: In this sample, the progress ring is not used.
@@ -248,6 +254,16 @@
     function isVisible() {
         var extendedSplashScreen = document.getElementById("splashEstendida");
         return !(WinJS.Utilities.hasClass(extendedSplashScreen, "hidden"));
+    }
+    function tornaVisivel() {
+        box.style.visibility = "visible";
+        box.style.transition = "width 2s, height 2s"
+        box.addEventListener("hover", mudaTamanho);
+    }
+    function mudaTamanho(){
+        box.style.width = "500px";
+        box.style.height = "500px";
+     
     }
 
     WinJS.Namespace.define("SdkSample", {

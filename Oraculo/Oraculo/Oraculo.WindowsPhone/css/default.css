@@ -14,6 +14,8 @@
 
      font-family: 'Segoe UI light';
      font-size: x-large;
-
-
+	 }
+#btsobre{
+	margin-top: 65%;
+    position:relative;
 }
